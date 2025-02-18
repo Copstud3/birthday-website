@@ -7,8 +7,8 @@ export default function BirthdayMessage() {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-200 flex items-center justify-center py-20">
-      <div ref={ref} className="container mx-auto px-4 text-center">
+    <section className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-200 flex items-center justify-center py-20 w-screen mx-auto">
+      <div ref={ref} className="mx-auto px-4 text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={isInView ? { opacity: 1, scale: 1 } : {}}

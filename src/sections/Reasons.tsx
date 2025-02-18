@@ -23,7 +23,7 @@ const memories = [
 
 export default function Reasons() {
   return (
-    <section id="memory-lane" className="py-20 bg-gradient-to-b from-pink-200 to-pink-100 lg:px-20">
+    <section id="memory-lane" className="py-20 bg-gradient-to-b from-pink-200 to-pink-100 lg:px-20 ">
       <div className="mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-pink-700 mb-12 font-pacifico">
           You
