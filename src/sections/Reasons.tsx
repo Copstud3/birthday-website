@@ -6,12 +6,12 @@ const memories = [
   {
     title: "The warmth in your eyes",
     description: "The day our eyes met and hearts connected",
-    imageUrl: "../src/assets/video.mp4",
+    imageUrl: "./public/assets/video.mp4",
   },
   {
     title: "You make everything feel better",
     description: "Making memories under the mistletoe",
-    imageUrl: "../src/assets/video_1.mov",
+    imageUrl: "./public/assets/video_1.mov",
   },
   {
     title: "I love my life with you in it",
