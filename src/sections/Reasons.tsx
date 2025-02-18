@@ -1,17 +1,19 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import video1 from "../public/assets/Video.mp4"
+import video2 from "../public/assets/Video_1.mov"
 
 const memories = [
   {
     title: "The warmth in your eyes",
     description: "The day our eyes met and hearts connected",
-    imageUrl: "./public/assets/video.mp4",
+    imageUrl: video1,
   },
   {
     title: "You make everything feel better",
     description: "Making memories under the mistletoe",
-    imageUrl: "./public/assets/video_1.mov",
+    imageUrl: video2,
   },
   {
     title: "I love my life with you in it",
