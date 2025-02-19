@@ -5,7 +5,7 @@ import Reasons from "./sections/Reasons"
 
 function App() {
     return (
-    <div className="overflow-x-hidden w-lvw">
+    <div className="">
       <Hero/>
       <Reasons />
       <BirthdayMessage />

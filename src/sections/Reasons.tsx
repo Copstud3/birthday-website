@@ -1,32 +1,34 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import video1 from "../public/assets/Video.mp4"
-import video2 from "../public/assets/Video_1.mov"
+import img1 from "../public/assets/IMG_5112.jpeg"
+import img2 from "../public/assets/imgggg.jpeg"
+import img3 from "../public/assets/img3.jpg"
+
 
 const memories = [
   {
     title: "The warmth in your eyes",
     description: "The day our eyes met and hearts connected",
-    imageUrl: video1,
+    imageUrl: img1,
   },
   {
     title: "You make everything feel better",
     description: "Making memories under the mistletoe",
-    imageUrl: video2,
+    imageUrl: img2,
   },
   {
     title: "I love my life with you in it",
     description: "A magical evening filled with love",
-    imageUrl: "https://source.unsplash.com/random/400x300?valentine",
+    imageUrl: img3,
   },
 ];
 
 
 export default function Reasons() {
   return (
-    <section id="memory-lane" className="py-20 bg-gradient-to-b from-pink-200 to-pink-100 lg:px-20 ">
-      <div className="mx-auto px-4">
+    <section id="memory-lane" className="py-20 bg-gradient-to-b from-pink-200 to-pink-100 lg:px-20  mx-auto">
+      <div className="max-sm:mx-10">
         <h2 className="text-4xl font-bold text-center text-pink-700 mb-12 font-pacifico">
           You
         </h2>
@@ -56,16 +58,16 @@ function MemoryCard({ memory, index }: { memory: typeof memories[0], index: numb
       } gap-8 items-center`}
     >
       <div className="w-full md:w-1/2">
-        <video
+        <img
           src={memory.imageUrl}
-          loop
+          alt={memory.title}
           className="rounded-lg shadow-lg w-full xl:h-[500px] h-[300px] object-cover"
         />
       </div>
       <div className="w-full md:w-1/2 text-center md:text-left">
         
-        <h3 className="text-2xl font-bold text-pink-700 mb-4">{memory.title}</h3>
-        <p className="text-pink-600">{memory.description}</p>
+        <h3 className="text-2xl font-bold text-pink-700 mb-4 font-inter">{memory.title}</h3>
+        <p className="text-pink-600 font-inter">{memory.description}</p>
       </div>
     </motion.div>
   );
