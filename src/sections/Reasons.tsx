@@ -9,17 +9,17 @@ import img3 from "../public/assets/img3.jpg"
 const memories = [
   {
     title: "The warmth in your eyes",
-    description: "The day our eyes met and hearts connected",
+    description: "I find myself still captivated by the gentle glow that lives within your gaze. ",
     imageUrl: img1,
   },
   {
     title: "You make everything feel better",
-    description: "Making memories under the mistletoe",
+    description: "Life sparkles differently with you around. Whether I'm having the best or worst day, your presence turns everything softer, warmer, more vibrant.",
     imageUrl: img2,
   },
   {
     title: "I love my life with you in it",
-    description: "A magical evening filled with love",
+    description: " Thank you for being the comfort in my chaos and the joy in my calm.",
     imageUrl: img3,
   },
 ];
