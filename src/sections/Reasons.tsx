@@ -30,7 +30,7 @@ export default function Reasons() {
     <section id="memory-lane" className="py-20 bg-gradient-to-b from-pink-200 to-pink-100 lg:px-20  mx-auto">
       <div className="max-sm:mx-10">
         <h2 className="text-4xl font-bold text-center text-pink-700 mb-12 font-pacifico">
-          You
+          Beautiful moments
         </h2>
         
         <div className="space-y-16">
