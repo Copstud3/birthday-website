@@ -15,7 +15,7 @@ export default function BirthdayMessage() {
           transition={{ duration: 0.8 }}
           className="max-w-2xl mx-auto"
         >
-          <h2 className="text-4xl font-bold text-pink-700 mb-8 font-pacifico">
+          <h2 className="text-3xl font-bold text-pink-700 mb-8 font-pacifico">
             ...another beautiful year round the sun!
           </h2>
 
